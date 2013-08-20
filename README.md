@@ -10,6 +10,7 @@ Unfortunately this proccess can be very painfull expecially for a begginer, so t
 help.
 
 Premises:
+
 Eclipse with the following pluguins:
 - JBoss Tools
 - Maven Integration for Eclipse
