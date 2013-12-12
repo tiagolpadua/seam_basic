@@ -9,9 +9,12 @@ complex applications.
 Unfortunately this proccess can be very painfull expecially for a begginer, so this basic structure can come to
 help.
 
+URL Base:
+http://localhost:8080/seam_basic/home.seam
+
 Premises:
 
-Eclipse with the following pluguins:
+Eclipse with the following plugins:
 - JBoss Tools
 - Maven Integration for Eclipse
 - EGit - Git Team Provider
