@@ -11,6 +11,7 @@
 
 	<root>
 		<priority value="error" />
+<!-- 		<priority value="debug" /> -->
 		<appender-ref ref="console" />
 	</root>
 

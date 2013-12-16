@@ -21,20 +21,13 @@
 
 	<core:init debug="false" transaction-management-enabled="false" />
 
-<!-- 	<resteasy:application-config -->
-<!-- 		resource-path-prefix="/restv1" scan-providers="false" scan-resources="false"  -->
-<!-- 		use-builtin-providers="true"> -->
-
-<!-- 		<resteasy:resource-class-names> -->
-<!-- 			<value>org.foo.MyCustomerResource</value> -->
-<!-- 			<value>org.foo.MyOrderResource</value> -->
-<!-- 		</resteasy:resource-class-names> -->
-
-<!-- 		<resteasy:provider-class-names> -->
-<!-- 			<value>org.foo.MyFancyProvider</value> -->
-<!-- 		</resteasy:provider-class-names> -->
-
-<!-- 	</resteasy:application-config> -->
+<!-- FIXME: Resposta padrão segue accept header do request e se for informada extensão, segue-a -->
+<!-- 	<resteasy:application> -->
+<!-- 		<resteasy:media-type-mappings> -->
+<!-- 			<key>xml</key><value>application/xml</value> -->
+<!-- 			<key>json</key><value>application/json</value> -->
+<!-- 		</resteasy:media-type-mappings> -->
+<!-- 	</resteasy:application> -->
 
 	<core:manager concurrent-request-timeout="500"
 		conversation-timeout="1800000" conversation-id-parameter="cid"

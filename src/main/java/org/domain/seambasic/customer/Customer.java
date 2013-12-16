@@ -1,4 +1,4 @@
-package org.domain.seambasic.api.v1;
+package org.domain.seambasic.customer;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
